@@ -46,16 +46,28 @@ console.log(van - totalParkingVan)
 
 
 //// 1
+
 const DIAMETER = 10;
 const PI = 3.1416;
  
-const RADIUS = diametro / 2;
+const RADIUS = DIAMETER / 2;
 
-const AREA = PI * (radio ** 2);
+const AREA = PI * (RADIUS ** 2);
 
-console.log(resultado);
+console.log(AREA);
 
 //2
+
+var number = 2;
+
+if((number % number === 0) && number != 2){
+   console.log("no es primo");
+}
+//3
+
+//Saber si el producto de 2 nùmeros es primo y mayor a 40
+//Validar que los nùmeros sean digitos
+//{numberOne}{numberTwo}
 
 var number = 2;
 
@@ -66,5 +78,26 @@ if((typeof number === 'number') && (number % number === 0)){
 }
 
 
+//01-08-2019
+//Dado tu nombre, apellidos fecha de nacimiento, genero y lugar de nacimiento dar la primera parte del CURP
+
+var name = "Omar Giovanni";
+var firstLastName = "Bautista"
+var lastName = "Santacruz";
+var dateBirth = "10-17-1993";
+
+var curp = name.slice(0,1);
 
 
+//Tarea
+//imprimir el cuadrado de :
+var numbers = [1,2,3,4,5,6,7,8,9]
+
+var count = 0;
+
+while(count < numbers.length){
+
+    console.log(numbers[count]**2);
+    count ++;
+
+}
